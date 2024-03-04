@@ -1,5 +1,5 @@
 {
-  "productName": "Web Tools",
+  "productName": "Dev Support",
   "appId": "com.wangchujiang.tools",
   "asar": true,
   "directories": {
@@ -22,7 +22,7 @@
     "category": "Development",
     "target": ["deb", "rpm"],
     "desktop": {
-      "Name": "Web Tools"
+      "Name": "Dev Support"
     }
   },
   "win": {
