@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import GitHubCorners from '@uiw/react-github-corners';
 import '@wcj/dark-mode';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
@@ -58,7 +57,6 @@ export default function Layout() {
   const version = VERSION;
   return (
     <Fragment>
-      <GitHubCorners size={36} href="https://github.com/jaywcjlove/tools" />
       <div className={styles.warpper}>
         <aside className="siderbar">
           <header>

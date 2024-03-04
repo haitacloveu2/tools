@@ -38,7 +38,7 @@ const template = [
         label: 'Open Source for Github',
         click: async () => {
           const { shell } = require('electron');
-          await shell.openExternal('https://github.com/jaywcjlove/tools');
+          await shell.openExternal('https://github.com/haitacloveu2/tools');
         },
       },
       {
